@@ -1,0 +1,20 @@
+.aboutcontainer{
+    width: 52rem;
+    height: 16rem;
+    border: 2px solid rgba(246, 246, 246, 0.334);
+    border-radius: 10px;
+    background-color: rgba(15, 138, 93, 0.223);
+    position: absolute;
+    top: 12rem;
+    left: 14rem;
+}
+.aboutcontainer h2{
+    width: 4.5rem;
+    margin: auto;
+
+}
+.about{
+    padding: 5px 15px;
+    height: 13rem;
+
+}

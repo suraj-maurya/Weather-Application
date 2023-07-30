@@ -1,0 +1,80 @@
+
+/* css for basic structure */
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+/* .home_container {
+  width: 1400px;
+} */
+
+.home_container nav {
+  width: 85rem;
+  position: absolute;
+  z-index: 100;
+  list-style: none;
+  color: antiquewhite;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* background-color: rgba(13, 86, 60, 0.798); */
+  background-image: linear-gradient(to left, rgba(13, 86, 60, 0.899),rgba(33, 203, 143, 0.744));
+}
+.home_container nav div {
+  /* border: 2px solid green; */
+  font-size: 35px;
+  padding: 15px;
+  font-weight:900;
+  /* color: rgb(45, 228, 234) ; */
+  color:  rgb(7, 40, 24) ;
+}
+
+.home_container nav ul {
+  /* border: 2px solid green; */
+  text-align: right;
+  margin-right: 100px;
+  font-size: 20px;
+  padding-top: 18px;
+}
+.home_container img {
+  width: 85rem;
+  height: 100vh;
+margin-bottom: 0px;
+  top: 0px;
+  z-index: 50;
+  opacity: 100%;
+}
+nav li {
+  display: inline-block;
+  margin: 2px;
+  padding: 2px 30px;
+  cursor: pointer;
+}
+
+
+footer{
+  width: 85rem;
+  /* border: 2px solid red; */
+  height: 10rem;
+  /* background-color: var(--primary); */
+  background-image: linear-gradient(to top, rgba(13, 86, 60, 0.899),rgba(27, 167, 118, 0.744));
+}
+footer div{
+  width: 24rem;
+  position: relative;
+  bottom: -7rem;
+  margin: auto;
+}
+
+a{
+  color: antiquewhite;
+  text-decoration:none ;
+}
+nav a:hover{
+  text-decoration: underline;
+}
+nav a:active{
+  color: green;
+} 

@@ -1,0 +1,132 @@
+.error{
+  visibility: hidden;
+  position: absolute;
+  top: 44px;
+  right: 97px;
+  color: #000000;
+  border: 2px solid rgba(246, 246, 246, 0.334);
+  border-radius: 10px;
+  background-color: rgba(138, 15, 15, 0.223);
+  padding: 3px;
+  width: 28rem;
+  font-weight: bold;
+}
+.weather_container {
+  width: 40rem;
+  position: absolute;
+  /* top: 12rem; */
+  top: 19rem;
+  margin: auto;
+  padding: 10px;
+  left: 20rem;
+  text-align: center;
+}
+.search input {
+  width: 20rem;
+  height: 1.8rem;
+  border-radius: 5px;
+  padding: 4px;
+  text-align: center;
+}
+
+.search button {
+  width: 8rem;
+  height: 1.8rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.search button:hover {
+  background-color: aquamarine;
+  font-size: 14px;
+  font-weight: bold;
+}
+.dashboard {
+  visibility: hidden;  
+  padding: 4px;
+  border: 2px solid rgba(246, 246, 246, 0.334);
+  border-radius: 10px;
+  background-color: rgba(15, 138, 93, 0.223);
+  margin-top: 7px;
+  display: grid;
+  grid-gap: 8px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 6.2rem;
+  position: relative;
+  z-index: 100;
+}
+.box {
+  border: 3px solid green;
+  width: 11.7rem;
+  margin: 4px;
+  border-radius: 10px;
+}
+.box :nth-child(1) {
+  /* height: 2.3rem; */
+  font-size: 55px;
+  padding: 2px;
+  color: rgb(0, 0, 0);
+  position: relative;
+  top: -11px;
+}
+.box :nth-child(2) {
+    position: relative;
+    top: -11px;
+}
+.box :nth-child(3) {
+  font-size: 15px;
+  /* color: rgb(80, 121, 157); */
+  color: rgb(1, 31, 21);
+  font-weight: bold;
+  position: relative;
+  top: -24px;
+}
+
+.city_container {
+  visibility: hidden;
+  margin: 4px;
+  /* font-size: 20px; */
+  color: rgb(49, 80, 23);
+  font-weight: bold;
+}
+.city_container span {
+  display: inline-block;
+  text-decoration: underline;
+  text-decoration-color: rgb(14, 56, 2);
+}
+.city_container :nth-child(1) {
+  font-size: 150px;
+  position: absolute;
+  top: 12rem;
+  left: 3.9rem;
+  z-index: 50;
+  opacity: 450%;
+  text-decoration: none;
+}
+.city_container :nth-child(2) {
+  text-decoration: none;
+  font-size: 150px;
+  position: absolute;
+  top: 12rem;
+  left: 8.9rem;
+  /* top: 12.2rem;
+    left:9.5rem; */
+  z-index: 110;
+  opacity: 100%;
+  width: 5rem;
+}
+.box .visibility{
+  font-size:40px;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 9px;
+font-weight: bold;
+}
+
+.box .desc{
+  font-size:35px;
+  display: block;
+  margin-top: 11px;
+  margin-bottom: 17px;
+font-weight: bold;
+  
+}

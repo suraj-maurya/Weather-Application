@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Application</title>
+    <link rel="stylesheet" href="/structure.css" />
+    <link rel="stylesheet" href="/main-dashboard.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="home_container">
+        <!-- Navigation section -->
+        <nav>
+          <div>Weather Application</div>
+          <ul>
+            <li><a href="/Index.html">Home</a> </li>
+            <li><a href="/About Page/about.html">About</a></li>
+            <li><a href="/Contact Page/contact.html">Contact</a> </li>
+          </ul>
+        </nav>
+
+        <!-- Site area -->
+        <img src="/img/background.png" alt="background" />
+
+        <!-- Main Section -->
+        <div class="weather_container">
+          <!-- search section -->
+          <div>
+            <!-- error message div -->
+            <div class="error"></div>
+
+            <!-- search div  -->
+            <form action="" class="search">
+              <input
+                class="inputCity"
+                name="inputCity"
+                type="text"
+                placeholder="Type City Name"
+              />
+              <button name="Submit">Search</button>
+            </form>
+          </div>
+
+          <!-- dashboard area -->
+          <div class="dashboard">
+            <div class="box">
+              <span class="temp">0</span>
+              <span>°C</span>
+              <div>Temperature</div>
+            </div>
+            <div class="box">
+              <span class="hum">0</span>
+              <span>%</span>
+              <div>Humidity</div>
+            </div>
+            <div class="box">
+              <span class="wind">0</span>
+              <span>km/h</span>
+              <div>wind Speed</div>
+            </div>
+            <div class="box">
+              <span class="pressure" >0</span>
+              <span>atm</span>
+              <div>Pressure</div>
+            </div>
+            <div class="box">
+              <span class="visibility">0</span>
+              <span></span>
+              <div>Visibility</div>
+            </div>
+            <div class="box">
+              <span class="desc">Normal</span>
+              <span></span>
+              <div>Description</div>
+            </div>
+          </div>
+<!-- city area  -->
+          <div class="city_container">
+            <span>V</span>
+            <span>V</span>
+            <span>eather of</span>
+            -
+            <span class="city">Gorakhpur</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <footer>
+        <div>© 2023 Back-B ® All rights reserved</div>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
